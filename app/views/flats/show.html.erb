@@ -1,0 +1,14 @@
+<div style="height:500px; width:100%; background-image: url('<%= @flat.picture_url %>'); background-position:center; background-size:cover"></div>
+<h1><%= @flat.name %></h1>
+<p><%= @flat.address %></p>
+<br>
+<h2>A bit more about this flat...</h2>
+<p><%= @flat.description %></p>
+<br>
+<h2>Details</h2>
+<p>
+  <i class="fa-solid fa-user-group"></i>
+  <%= @flat.number_of_guests %>
+  <i class="fa-solid fa-euro-sign"></i>
+  <%= @flat.price_per_night %>
+</p>
